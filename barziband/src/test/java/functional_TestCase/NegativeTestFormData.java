@@ -1,0 +1,28 @@
+package functional_TestCase;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pages.NegativeFormData;
+import utility.BrowserHandle;
+
+public class NegativeTestFormData extends BrowserHandle {
+
+	@Test
+	public void negativeTest(){
+		
+		NegativeFormData nfd = new NegativeFormData();
+		
+		boolean clickContactPage = nfd.contactPage();
+		Assert.assertEquals(clickContactPage, true,"Failed to click on contactPage");
+				
+		boolean scroll = nfd.scrollToPhone();
+		Assert.assertEquals(scroll, true,"Failed to scroll2Phone");
+		
+		
+				
+
+		
+	}
+	
+}

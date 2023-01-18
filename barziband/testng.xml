@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<!-- 	<listeners> -->
+<!--   <listener class-name="utility.Listener">   </listener> -->
+<!--   </listeners> -->
+  
+  <test thread-count="5" name="Test">
+  <parameter name="browserName" value="chrome"></parameter>
+  <classes>
+  <!-- <class name="sysytem_TestCase.E2E"></class>   -->
+<!--    <class name="functional_TestCase.TestHomePage"></class> -->
+<!--    <class name="functional_TestCase.TestSpiceShop_Page"></class>  -->
+<!-- 	<class name="functional_TestCase.TestFormData"></class> -->
+<class name="functional_TestCase.NegativeTestFormData"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

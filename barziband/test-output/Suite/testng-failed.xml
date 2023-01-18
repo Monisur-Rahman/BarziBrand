@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="functional_TestCase.NegativeTestFormData">
+        <methods>
+          <include name="endReport"/>
+          <include name="close"/>
+          <include name="openBrowser"/>
+          <include name="startReport"/>
+          <include name="negativeTest"/>
+        </methods>
+      </class> <!-- functional_TestCase.NegativeTestFormData -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
