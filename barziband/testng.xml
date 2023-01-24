@@ -13,7 +13,7 @@
 <!--    <class name="functional_TestCase.TestHomePage"></class> -->
 <!--    <class name="functional_TestCase.TestSpiceShop_Page"></class>  -->
 <!-- 	<class name="functional_TestCase.TestFormData"></class> -->
-<class name="functional_TestCase.NegativeTestFormData"></class>
+		<class name="functional_TestCase.NegativeTestFormData"></class>
   </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

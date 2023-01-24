@@ -19,7 +19,11 @@ public class NegativeTestFormData extends BrowserHandle {
 		boolean scroll = nfd.scrollToPhone();
 		Assert.assertEquals(scroll, true,"Failed to scroll2Phone");
 		
+		boolean submit = nfd.submitBtn();
+		Assert.assertEquals(submit, true,"Failed to click on submit button");
 		
+//		boolean errorMsg = nfd.getErrorMsg();
+//		Assert.assertEquals(errorMsg, true, "Failed to get Error Message");
 				
 
 		

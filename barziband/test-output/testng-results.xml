@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-17T15:31:37 IST" name="Suite" finished-at="2023-01-17T15:31:51 IST" duration-ms="14044">
+  <suite started-at="2023-01-24T22:56:17 IST" name="Suite" finished-at="2023-01-24T22:56:50 IST" duration-ms="32757">
     <groups>
     </groups>
-    <test started-at="2023-01-17T15:31:37 IST" name="Test" finished-at="2023-01-17T15:31:51 IST" duration-ms="14044">
+    <test started-at="2023-01-24T22:56:17 IST" name="Test" finished-at="2023-01-24T22:56:50 IST" duration-ms="32757">
       <class name="functional_TestCase.NegativeTestFormData">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-17T15:31:37 IST" name="openBrowser" finished-at="2023-01-17T15:31:50 IST" duration-ms="12710" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-24T22:56:17 IST" name="openBrowser" finished-at="2023-01-24T22:56:34 IST" duration-ms="16693" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="startReport()[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-17T15:31:50 IST" name="startReport" finished-at="2023-01-17T15:31:50 IST" duration-ms="470" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-24T22:56:34 IST" name="startReport" finished-at="2023-01-24T22:56:34 IST" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method signature="negativeTest()[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-17T15:31:50 IST" name="negativeTest" finished-at="2023-01-17T15:31:50 IST" duration-ms="49" status="FAIL">
-          <exception class="java.lang.NullPointerException">
+        <test-method signature="negativeTest()[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-24T22:56:35 IST" name="negativeTest" finished-at="2023-01-24T22:56:49 IST" duration-ms="14651" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
+              <![CDATA[Failed to get Error Message expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy31.click(Unknown Source)
-at pages.NegativeFormData.submitBtn(NegativeFormData.java:21)
-at functional_TestCase.NegativeTestFormData.negativeTest(NegativeTestFormData.java:13)
+              <![CDATA[java.lang.AssertionError: Failed to get Error Message expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:819)
+at functional_TestCase.NegativeTestFormData.negativeTest(NegativeTestFormData.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -64,15 +65,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- negativeTest -->
-        <test-method is-config="true" signature="close()[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-17T15:31:50 IST" name="close" finished-at="2023-01-17T15:31:51 IST" duration-ms="331" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-24T22:56:49 IST" name="close" finished-at="2023-01-24T22:56:50 IST" duration-ms="495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-17T15:31:51 IST" name="endReport" finished-at="2023-01-17T15:31:51 IST" duration-ms="415" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:functional_TestCase.NegativeTestFormData@2d7275fc]" started-at="2023-01-24T22:56:50 IST" name="endReport" finished-at="2023-01-24T22:56:50 IST" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
